@@ -1,0 +1,51 @@
+section {
+  background-color: #0a0607;
+}
+
+.scroll__navigation {
+  position: fixed;
+  right: 30px;
+  background-color: black;
+  opacity: 0.5;
+  padding: 10px;
+  border-radius: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+  z-index: 5;
+}
+.scroll__navigation:hover {
+  opacity: 1;
+}
+.scroll__navigation ul li {
+  border-radius: 50%;
+  background-color: orange;
+  opacity: 0.3;
+  height: 20px;
+  width: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.scroll__navigation:hover ul li {
+  opacity: 0.8;
+}
+
+.scroll__navigation ul li:hover {
+  opacity: 1;
+}
+
+.scroll__navigation ul li span {
+  border-radius: 50%;
+  background-color: #6666;
+  height: 10px;
+  width: 10px;
+  margin: 20px 0;
+}
+
+.scroll__navigation ul li.active {
+  background-color: black;
+}
