@@ -297,37 +297,6 @@ section.change {
 	margin: 0 1rem;
 }
 
-.slides {
-	width: 500%;
-	height: 40rem;
-	display: flex;
-}
-
-.slides input {
-	display: none;
-}
-.slide {
-	width: 20%;
-	transition: 2s;
-	position: relative;
-}
-
-.slide img {
-	width: 100%;
-	filter: grayscale(100%);
-	height: 90%;
-	transition: 1s;
-}
-.slide img:hover {
-	filter: grayscale(0);
-	transition: 1s;
-}
-.slide:hover .slide-inside {
-	display: block;
-	opacity: 0.9;
-	transition: 1s;
-}
-
 /* Slider navigation */
 .slider-navigation {
 	position: absolute;
@@ -383,23 +352,6 @@ section.change {
 .slide-inside p {
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
-}
-
-/*Setting movement for items if checked */
-#rad1:checked ~ .first {
-	margin-left: 0;
-}
-#rad2:checked ~ .first {
-	margin-left: -20%;
-}
-#rad3:checked ~ .first {
-	margin-left: -40%;
-}
-#rad4:checked ~ .first {
-	margin-left: -60%;
-}
-#rad5:checked ~ .first {
-	margin-left: -80%;
 }
 
 /* ENd of portfolio */
