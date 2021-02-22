@@ -118,51 +118,129 @@
       <div class="wrapper">
         <section class="portfolio target" id="portfolio">   
           <div class="slider">
-            <div class="slides">
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <a href="https://findyourwork.herokuapp.com/" target="_blank">
+                    <div class="slide-inside">
+                      <h1>Find your work app</h1>
+                      <p>In this application my idea was to make page where you can post your job offer and find it on the map. 
+                        Due to possible payment in google maps i have to overcome that problem in different way, so i used openstreetmap and leafletjs.
+                        For my database i used firebase - google services. 
+                      <br><br>
+                        What i used:
+                      </p>
+                        <ul>
+                          <li>JS/ES6</li>
+                          <li>ReactJS</li>
+                          <li>Css (also some MaterialUI)</li>
+                          <li>HTML</li>
+                          <li>APIs</li>
+                          <li>fetches/async</li>
+                        </ul>
+                  
+                    </div>
+                    <img src="./images/findyourwork.png">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+               
+                  <a href="https://todogrze.herokuapp.com">  
+                    <div class="slide-inside">
+                      <h1>ToDo List</h1>
+                      <p>In this application i tried to use ReactJS with localStorage to make to do list more "innovative"
+                       <br><br>
+                        What i used:
+                      </p>
+                        <ul>
+                          <li>JS/ES6</li>
+                          <li>ReactJS</li>
+                          <li>Css</li>
+                          <li>HTML</li>
+                        </ul>
+                   
+                    </div>
+                     <img src="./images/ToDoList.png" alt="" target="_blank">
+
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="oldones/index.html" target="_blank"><img src="images/MainPage.png" alt="">
+                    <img src="./images/MainPage.png" alt="">
+                    <div class="slide-inside">
+                      <h1>Old portfolio site</h1>
+                      <p>That was my first attempts to make some portfolio website using a lot of technologies inside, also there are some links to my another styling 'works'
+                       <br><br>
+                        What i used:
+                      </p>
+                        <ul>
+                          <li>JS/ES6</li>
+                          <li>Canvas</li>
+                          <li>Css</li>
+                          <li>HTML</li>
+                        </ul>
+                   
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="https://github.com/GrzegorzZiemba/React/tree/master/Receipes" target="_blank"><img src="images/Receipes.png" alt="">
+                    <div class="slide-inside">
+                      <h1>Receipes</h1>
+                      <p>That was my first attempt to connect with some API using ReactJS
+                       <br><br>
+                        What i used:
+                      </p>
+                        <ul>
+                          <li>JS/ES6</li>
+                          <li>ReactJS</li>
+                          <li>Css</li>
+                          <li>HTML</li>
+                        </ul>
+                   
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="https://github.com/GrzegorzZiemba/AppWeather" target="_blank"><img src="images/Weather.png" alt="">
+                    <div class="slide-inside">
+                      <h1>Weather application</h1>
+                      <p>That was my attempt to make some application with some API using NodeJS
+                       <br><br>
+                        What i used:
+                      </p>
+                        <ul>
+                          <li>JS/ES6</li>
+                          <li>NodeJS</li>
+                          <li>Css</li>
+                          <li>HTML</li>
+                        </ul>
+                   
+                    </div>
+                  </a>
+                </div>
+              
+              </div>
+            
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            
+             
+            </div>
+            <!-- <div class="slides">
               <input type="radio" name="radio-btn" id='rad1'>
               <input type="radio" name="radio-btn" id='rad2'>
               <input type="radio" name="radio-btn" id='rad3'>
               <input type="radio" name="radio-btn" id='rad4'>
               <input type="radio" name="radio-btn" id='rad5'>
            
-              <div class="slide first">
-                <a href="https://findyourwork.herokuapp.com/" target="_blank"><img src="images/findyourwork.png" alt="">
-                <div class="slide-inside">
-                  <h1>Find your work app</h1>
-                  <p>In this application my idea was to make page where you can post your job offer and find it on the map. 
-                    Due to possible payment in google maps i have to overcome that problem in different way, so i used openstreetmap and leafletjs.
-                    For my database i used firebase - google services. 
-                   <br><br>
-                    What i used:
-                  </p>
-                    <ul>
-                      <li>JS/ES6</li>
-                      <li>ReactJS</li>
-                      <li>Css (also some MaterialUI)</li>
-                      <li>HTML</li>
-                      <li>APIs</li>
-                      <li>fetches/async</li>
-                    </ul>
-               
-                </div>
-              </a>
+             
               </div>
               <div class="slide">
-                <a href="oldones/index.html" target="_blank"><img src="images/MainPage.png" alt="">
-                  <div class="slide-inside">
-                    <h1>Old portfolio site</h1>
-                    <p>That was my first attempts to make some portfolio website using a lot of technologies inside, also there are some links to my another styling 'works'
-                     <br><br>
-                      What i used:
-                    </p>
-                      <ul>
-                        <li>JS/ES6</li>
-                        <li>Canvas</li>
-                        <li>Css</li>
-                        <li>HTML</li>
-                      </ul>
-                 
-                  </div>
+              
+                  
                 </a>
                 
               </div>
@@ -228,7 +306,7 @@
                 <label for="rad5" class='slide-nav'></label>
              </div>
 
-            </div>
+            </div> -->
           </div>
         </section>
       </div>
@@ -287,24 +365,7 @@
     </div>
 
     
-    <div class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><a href="https://findyourwork.herokuapp.com/" target="_blank"><img src="./images/findyourwork.png"></a></div>
-        <div class="swiper-slide"><img src="./images/img.png" alt=""></div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
-      </div>
-      <!-- If we need pagination -->
 
-    
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    
-     
-    </div>
 
 
     <!-- End of contact section  -->
