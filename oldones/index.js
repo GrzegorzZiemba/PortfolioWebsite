@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	const typedText = document.querySelector(".mainsec.first .span__dev");
 
-	const textArray = ["JavaScript", "CSS", "HTML", "React"];
+	const textArray = ["JavaScript", "CSS", "HTML", "React", "Node", "Redux"];
 	const typingDelay = 90;
 	const erasingDelay = 80;
 	const newTextDelay = 1000; // Delay between current and next text
