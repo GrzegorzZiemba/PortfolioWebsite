@@ -80,6 +80,24 @@ document.addEventListener("DOMContentLoaded", function () {
 	//for templates:
 	const slideList = [
 		{
+			img: "images/findyourwork.jpg",
+			text:
+				"Aplication to set job offer - You can make it via login. I used there React / Firebase",
+			a: "https://findyourwork.herokuapp.com",
+		},
+
+		{
+			img: "images/ToDoList.jpg",
+			text: "Simple ToDoList connected with localStorage (React)",
+			a: "https://todogrze.herokuapp.com",
+		},
+		{
+			img: "images/Weather.jpg",
+			text:
+				"Aplication where you can find weather conditions. I used there Node",
+			a: "https://github.com/GrzegorzZiemba/AppWeather",
+		},
+		{
 			img: "images/First-500.jpg",
 			text: "First template - inspiration by Treehouse free tempalte",
 			a: "first/index.html",
